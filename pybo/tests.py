@@ -6,4 +6,4 @@ from django.test import TestCase
 class UserTest(TestCase):
 
     def test(self):
-        self.assertEqual(2,2)
+        self.assertEqual(1,1)
