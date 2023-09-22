@@ -20,7 +20,6 @@ jobs:
           password: ${{secrets.PASSWORD}}
           port: 22
           script: |
-            ls -all
             cd /home/cicd/code/django
             git pull
             python manage.py runserver 0.0.0.0:8000 &
