@@ -21,6 +21,6 @@ jobs:
           script: |
             cd /home/cicd/code/django
             git pull
-            python manage.py runserver 0.0.0.0:8000 &
+            nohup gunicorn --bind=0.0.0.0:8000 config.wsgi &
             
             
