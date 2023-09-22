@@ -23,4 +23,5 @@ jobs:
             ls -all
             cd /home/cicd/code/django
             git pull
+            git checkout master3
             python manage.py runserver 0.0.0.0:8000 &
