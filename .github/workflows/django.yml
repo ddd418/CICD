@@ -32,12 +32,3 @@ jobs:
     - name: Run Tests
       run: |
         python manage.py test
-        
-
-    # 테스트
-    - name: My Location
-      run: |
-        pwd
-    - name: Run Tests
-      run: |
-       python manage.py test
