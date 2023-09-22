@@ -22,5 +22,5 @@ jobs:
           script: |
             ls -all
             cd /home/cicd/code/django
-            echo 1676079051aA@! > git pull
+            git pull
             python manage.py runserver 0.0.0.0:8000 &
